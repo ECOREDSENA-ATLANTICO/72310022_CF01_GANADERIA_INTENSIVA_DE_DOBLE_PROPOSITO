@@ -2,9 +2,9 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 A continuación, se ofrece una visión general sobre los aspectos clave de la producción ganadera de doble propósito. Se comienza destacando la importancia de la ganadería bovina para la economía, con énfasis en el sistema de doble propósito, que combina la producción de carne y leche. También se destacan las razas más utilizadas en este modelo: Brahman, Simmental, Simbrah y Normando, las cuales ofrecen versatilidad y eficiencia. En Colombia, además, sobresalen las razas criollas y sintéticas, adaptadas al clima y a las condiciones locales. Para asegurar un rendimiento óptimo, es esencial cumplir con los requerimientos nutricionales de los animales. Por último, se abordan estrategias de conservación de forrajes que mantengan la calidad alimenticia durante todo el año.
 
-    .row.justify-content-center
+    .row.justify-content-center.bgr.p-4
       .col-lg-10.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")

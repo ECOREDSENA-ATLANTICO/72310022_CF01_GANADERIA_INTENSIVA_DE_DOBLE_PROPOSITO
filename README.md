@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **72310022_CF01_GANADERIA_INTENSIVA_DE_DOBLE_PROPOSITO**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecoredsena-atlantico.github.io/72310022_CF01_GANADERIA_INTENSIVA_DE_DOBLE_PROPOSITO/](https://ecoredsena-atlantico.github.io/72310022_CF01_GANADERIA_INTENSIVA_DE_DOBLE_PROPOSITO/)
 
 #
 

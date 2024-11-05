@@ -34,13 +34,208 @@
   100%
     transform: translatex(0px)
 
-.bgr
+.bgrs
   background-color: #F6F6F6
   border-radius: 20px
+
 
 //CLASES REEMPLAZADAS//
 .banner-interno__titulo__icono i
   color: white !important
 .banner-interno__fondo
     background-image: url(../assets/curso/portada/banner_interno.svg) !important
+.horizontal-scroll
+  padding: 10px
+.tabs-c.color-primario .tabs-c__tab--active
+  border-bottom-color: #748578 !important
+  &::before
+    border-top-color: #748578
+.tabs-c__content-item
+  background-color: #F2F2F2
 
+.slyder-a__btn--sigt
+  background-color: #238AA4 !important
+.slyder-a__btn--atrs
+  background-color: #238AA4 !important
+.slyder-a__bullets__item
+  background-color: #A5CFC9
+.slyder-a__bullets__item--active
+  background-color: #238AA4
+  border-color: #238AA4
+
+.bloque-texto-b.color-secundario:before
+  background-color: #EFFAF4
+
+.lista-ol--cuadro__vineta 
+  background-color: #C78437
+  border-radius: 50%
+  min-width: 55px;
+  height: 55px;
+  border: 5px solid #FCDBB4
+  
+
+//BACKGROUND//
+.bgr
+  background-color: #4D584F
+  border-radius: 20px
+  display: inline
+  padding: 10px
+  padding-left: 50px
+  &_1
+    background: rgb(252,219,180)
+    background: linear-gradient(180deg, rgba(252,219,180,1) 0%, rgba(193,221,199,1) 100%)
+  &_2
+    background-color: #E6F1E8
+    &::before
+      background-color: #748578
+  &_3
+    background-color: #FEF6ED
+  &_4
+    background-color: #F8F3E0
+  &_5
+    background-color: #FCDBB4
+  &_6
+    background-color: #C1DDC7
+  &_7
+    background-color: #F2F8F4
+  &_8
+    background-color: #FBB15D
+    border-top-right-radius: 50px
+    display: inline
+    padding: 10px 40px 10px 10px
+    position: relative
+    &::after
+      content: '';
+      width: 22px; /* Tamaño del círculo */
+      height: 22px;
+      background-color: #748578; /* Color del círculo */
+      border-radius: 50%; /* Hace el elemento circular */
+      position: absolute;
+      top: 15px; /* Ajusta según sea necesario */
+      right: 12px; /* Posición en la esquina derecha */
+      transform: translate(50%, -50%); /* Ajuste para centrar el círculo */
+  &_9
+    background-color: #ffff
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0px 10px
+  &_10
+    background-color: #FCDBB4
+  &_11
+    background-color: #F2F2F2
+  &_12
+    background-image: url(../assets/curso/temas/tema2/30.svg) !important
+    background-repeat: no-repeat  
+    border-radius: 20px
+  &_13
+    color: $color-primario !important
+  &_14
+    color: #748578 !important
+  &_15
+    background-color: #DCC366
+    border-radius: 10px
+    display: inline
+    padding: 10px
+  &_16
+    background-color: #F6F6F6
+    border-left: 10px solid #DCC366
+    border-top-right-radius: 20px
+    border-bottom-right-radius: 20px
+  &_17
+    color: #12263F !important
+  &_18
+    background-image: url(../assets/curso/temas/tema3/29.svg) !important
+    background-repeat: no-repeat  
+    border-radius: 20px
+  &_19
+    background-color: #FCDBB4
+    border-radius: 0 10px 10px 0
+    padding: 20px 20px 20px 0
+  &_20
+    background-color: #C1DDC7
+    padding: 23px
+    font-size: 24px
+  &_21
+    color: #FCDBB4
+ 
+  
+.bg_img
+  position: relative
+  p, figure, slyder-f .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -48px
+    width: calc(100% + 96px)
+    height: 100%
+    background-image: url(../assets/template/6.svg) !important
+    background-repeat: no-repeat  
+  &_1
+    position: relative
+    p, figure, .tarjeta
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 14%
+      left: 0
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url(../assets/curso/temas/tema1/8.svg) !important
+      background-repeat: no-repeat
+  &_2
+    position: relative
+    p, figure, .tarjeta
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(239,250,244,1) 20%, rgba(239,250,244,1) 80%, rgba(255,255,255,1) 100%);
+  
+
+//POSITION ON SCREEN//
+.pst
+  position: absolute
+  width: 80px
+  top: -13px
+  left: -25px
+  &_1
+    position: absolute 
+    width: 72px
+    top: 0
+    left: 10px
+  &_2
+    width: 220px
+  &_3
+    width: 170px
+  &_4
+    width: 130px
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #748578!important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E6F1E8
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FCDBB4
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FCDBB4

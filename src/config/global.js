@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Producción ganadera de doble propósito.',
+    componenteFormativo: 'Producción ganadera de doble propósito',
     descripcionCurso:
       'La ganadería de doble propósito combina la producción rentable de carne y leche mediante cruces estratégicos entre razas especializadas. Este sistema es clave para el sustento de pequeños y medianos productores en Colombia. Es esencial mejorar los hatos nacionales para aumentar la producción y fortalecer la competitividad del sector ganadero.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

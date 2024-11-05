@@ -1,1 +1,1 @@
-module.exports = 'Producción ganadera de doble propósito.'
+module.exports = 'Producción ganadera de doble propósito'

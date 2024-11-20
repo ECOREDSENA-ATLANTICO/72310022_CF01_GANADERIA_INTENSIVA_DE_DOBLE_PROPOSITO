@@ -16,26 +16,29 @@
           p.mb-0 La conservación de forrajes es el proceso mediante el cual se almacenan pastos y plantas forrajeras para su uso en épocas de escasez, como las sequías. Este proceso garantiza una fuente constante de alimento para el ganado, manteniendo su calidad nutricional. Se realiza mediante técnicas como el ensilaje o la henificación, que permiten preservar los nutrientes y evitar la descomposición del forraje.
       
       div.mb-5(data-aos="fade-right")
-        h3.bgr.text-white.position-relative Ensilaje
+        h3.bgr_23.text-white.position-relative Ensilaje
           img.pst(src='@/assets/curso/temas/tema3/20.svg', alt='')
 
       p.mb-5 El ensilaje es un proceso de fermentación anaeróbica que conservan los forrajes verdes, esta técnica incrementa el valor nutritivo y la palatabilidad del forraje para el animal. Los pastos más apropiados para ensilar son los que tienen buena relación hoja- tallo, es decir, especies que desarrollan buen follaje. Las plantas que suelen utilizarse para ensilar son el sorgo, el maíz y los residuos de cosecha.
       
       h3.bgr_8 Tipos de silos
-      .row.mb-5.mt-5
-        .col-lg-3
+      .row.mb-5.mt-5.justify-content-center
+        .col-md-8.col-lg-3.mb-3
           figure
             img(src='@/assets/curso/temas/tema4/3.png', alt='Texto que describa la imagen')
         .col-lg-9
-          p.mb-5 Silo de montón o de trinchera: esta técnica consiste en realizar una zanja con una leve inclinación, la cual puede ser cubierta con cemento o ladrillo. La capacidad de este tipo de silo depende de la necesidad del productor.
           ol.lista-ol--cuadro.lista-ol--separador
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.text-bold.bgr_21 01
-              p #[strong Silo de bolsa: ] esta técnica consiste en introducir de 30 a 40 kg de material vegetal bien picado y en capas dentro de una bolsa, que puede ser de calibre 6 a 8. Cada vez que se introduce una capa, se agrega melaza y se compacta bien haciendo presión para que no quede aire. Después, el silo se almacena en un lugar libre de humedad y de roedores durante un mes.
+              p #[strong Silo de montón o de trinchera: ] esta técnica consiste en realizar una zanja con una leve inclinación, la cual puede ser cubierta con cemento o ladrillo. La capacidad de este tipo de silo depende de la necesidad del productor.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span.text-bold.bgr_21 02
+              p #[strong Silo de bolsa: ] esta técnica consiste en introducir de 30 a 40 kg de material vegetal bien picado y en capas dentro de una bolsa, que puede ser de calibre 6 a 8. Cada vez que se introduce una capa, se agrega melaza y se compacta bien haciendo presión para que no quede aire. Después, el silo se almacena en un lugar libre de humedad y de roedores durante un mes.
+            li.d-flex
+              .lista-ol--cuadro__vineta
+                span.text-bold.bgr_21 03
               p #[strong Silo de cincho o formaleta: ] dicha técnica consiste en introducir el material a ensilar en una formaleta cilíndrica que tiene una ranura en la mitad. En esta formaleta ubica y compacta el material a ensilar, después la abre para sacar el material macizo y finalmente este se forra con un plástico o lona y se amarra bien para que no le entre nada de aire.
 
     .bg_img     
@@ -46,12 +49,12 @@
       
       p Las materias primas más utilizadas en la elaboración de ensilajes son los pastos de corte, los cereales y las leguminosas forrajeras.
 
-      .row.mb-5
-        .col-lg-4
+      .row.mb-5.justify-content-center
+        .col-md-6.col-lg-4.mb-3
           div.tarjeta.bgr_10.p-4.h-100
             figure.mb-5.d-flex.justify-content-center
               img.pst_2(src='@/assets/curso/temas/tema4/4.png', alt='Imagen decorativa')
-            h2.text-center Pastos de corte:
+            h2.text-center Pastos de corte
             ul.lista-ul--color
               li 
                 i.fas.fa-check-circle.bgr_13 
@@ -65,7 +68,7 @@
               li
                 i.fas.fa-check-circle.bgr_13
                 | Caña forrajera.
-        .col-lg-4
+        .col-md-6.col-lg-4.mb-3
           div.tarjeta.bgr_6.p-4.h-100
             figure.mb-5.d-flex.justify-content-center
               img.pst_2(src='@/assets/curso/temas/tema4/5.png', alt='Imagen decorativa')
@@ -77,7 +80,7 @@
               li
                 i.fas.fa-check-circle.bgr_14
                 | Sorgo. 
-        .col-lg-4
+        .col-md-6.col-lg-4.mb-3
           div.tarjeta.bgr_10.p-4.h-100
             figure.mb-5.d-flex.justify-content-center
               img.pst_2(src='@/assets/curso/temas/tema4/6.png', alt='Imagen decorativa')
@@ -91,22 +94,22 @@
                 | Alfalfa.
               li
                 i.fas.fa-check-circle.bgr_13
-                | Kudzú.
+                | <em>kudzú</em>.
               li
                 i.fas.fa-check-circle.bgr_13
-                | Gandul.
+                | <em>Gandul</em>.
               li
                 i.fas.fa-check-circle.bgr_13
                 | Crotaria.
     
     p.mb-5 Aditivos utilizados en la elaboración de ensilaje:
 
-    .row.mb-5
-      .col-lg-4
+    .row.mb-5.justify-content-center
+      .col-md-8.col-xl-4.mb-3
         figure
           img(src='@/assets/curso/temas/tema4/7.png', alt='Texto que describa la imagen')
-      .col-lg-8
-        SlyderF(columnas="col-lg-6 col-xl-6")
+      .col-lg-10.col-xl-8
+        SlyderF(columnas="col-md-6 col-xl-6")
           .tarjeta.bgr_9.p-4
             figure.mb-3.d-flex.justify-content-center
               img.pst_4(src='@/assets/curso/temas/tema4/8.png', alt='Texto que describa la imagen')
@@ -134,8 +137,8 @@
     .bg_img
       p Las fases de un ensilaje son los procesos mediante los cuales se conserva forraje en un ambiente anaeróbico. Sirven para preservar los nutrientes del forraje, asegurando alimento de calidad en épocas de escasez. Funcionan en cuatro etapas: fase aeróbica, fase de fermentación, fase estable y fase de deterioro, donde los microorganismos ayudan a conservar el alimento adecuadamente. A continuación, se explica las funciones de cada fase:
 
-      .row.mb-5
-        .col-lg-4
+      .row.mb-5.justify-content-center
+        .col-md-8.col-lg-4.mb-3
           figure
             img(src='@/assets/curso/temas/tema4/11.png', alt='Texto que describa la imagen')
         .col-lg-8.align-content-center
@@ -152,8 +155,8 @@
         i.fas.fa-caret-right.fa-lg.bgr_14
         h3 Ventajas del ensilaje
     
-    .row.mb-5
-      .col-lg-8
+    .row.mb-5.justify-content-center
+      .col-xl-8.mb-3
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check-circle.bgr_14 
@@ -182,7 +185,7 @@
           li
             i.fas.fa-check-circle.bgr_14
             | Al ser suministrado se puede mezclar con otros productos como forrajes, granos, sales, aditivos y melazas.
-      .col-lg-4
+      .col-md-8.col-lg-6.col-xl-4
         figure
           img(src='@/assets/curso/temas/tema4/12.png', alt='Texto que describa la imagen')
     
@@ -192,11 +195,11 @@
         h3 Problemas que se puede presentar en un ensilaje
     
     .bg_img
-      .row.mb-5
-        .col-lg-5
+      .row.mb-5.justify-content-center
+        .col-lg-6.col-xl-5.mb-3
           figure
             img(src='@/assets/curso/temas/tema4/13.png', alt='Texto que describa la imagen')
-        .col-lg-7
+        .col-xl-7
           ul.lista-ul--color.lista-ul--separador
             li 
               i.fas.fa-check-circle.bgr_14 
@@ -227,7 +230,7 @@
 
       p A continuación, se describen las etapas y sus características para realizar un ensilaje: 
 
-    SlyderF(columnas="col-lg-3 col-xl-3")
+    SlyderF(columnas="col-md-6 col-xl-3")
       .tarjeta--boton.bgr_5.p-4.h-100
         .row.justify-content-center.mb-3
           .col-7
@@ -248,7 +251,7 @@
             figure
               img(src='@/assets/curso/temas/tema4/16.svg', alt='Texto que describa la imagen')
         h3.text-center Ensilaje
-        p.text-small.text-center El material se esparce con la finalidad de eliminar humedad, la cual debe estar en un 70%, si es mayor no se va a obtener un buen ensilaje.
+        p.text-small.text-center El material se esparce con la finalidad de eliminar humedad, la cual debe estar en un 70 %, si es mayor no se va a obtener un buen ensilaje.
       .tarjeta--boton.bgr_6.p-4.h-100
         .row.justify-content-center.mb-3
           .col-7
@@ -279,17 +282,17 @@
         p.text-small.text-center Después de trascurrido el tiempo de ensilado el producto se debe utilizar lo más rápido posible para evitar su deterioro.
     
     .bg_img_1
-      .row.mb-5.justify-content-center
-        .col-lg-2
+      .row.mb-4.justify-content-center
+        .col-auto.col-md-2
           figure
             img(src='@/assets/curso/temas/tema4/21.png', alt='Imagen decorativa')
-        .col-lg-10.align-content-center
+        .col-10.align-content-center
           p.mb-0 #[strong Nota:] el tiempo de ensilado varía dependiendo del tipo de silo: dura tres meses en silos de montón o de trinchera, dos meses en silos de cincho o de formaleta, y un mes en silos de bolsa. Diariamente se debe suministrar 3 kg de ensilaje por cada 100 kg de peso vivo del bovino.
     
-    .row.mb-5
-      .col-lg-7
+    .row.mb-5.justify-content-center
+      .col-xl-7.mb-3
         p.mb-5 Es importante tener en cuenta que la ingesta de ensilaje en vacas aumenta su producción diaria en un 20% y en animales jóvenes ayuda a mejorar el crecimiento de un 10% a un 30%.
-        ul.lista-ul--color.mb-5
+        ul.lista-ul--color.mb-3
           li.d-flex 
             i.fas.fa-caret-right.fa-lg.bgr_14
             h3 Balance de dietas o raciones
@@ -301,14 +304,14 @@
           li
             i.fas.fa-check-circle.bgr_14
             | Contar con la disponibilidad de las materias primas a usar.
-      .col-lg-5
+      .col-md-8.col-lg-6.col-xl-5
         figure
           img(src='@/assets/curso/temas/tema4/22.png', alt='Texto que describa la imagen')
     
     ul.lista-ul--color.mb-5
       li.d-flex 
         i.fas.fa-caret-right.fa-lg.bgr_14
-        h3 Subproductos utilizados en alimentación bovina Urea
+        h3 Subproductos utilizados en alimentación bovina urea
     
     .bg_img
       .bloque-texto-g.bgr_1.mt-4.p-3.p-sm-4.p-md-5.mb-5
@@ -316,11 +319,11 @@
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/23.jpg')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 Los bovinos en el rumen desdoblan la urea convirtiéndola en proteína. Para que el animal se adapte al consumo de este elemento se debe suministrar por niveles que van en la primera semana 25%, en la segunda semana 50%, en la tercera semana 75% y en la cuarta semana se suministra un 100%; si en este proceso de adaptación de la urea se deja de dar al animal por varios días, se debe empezar de nuevo el suministro.
+          p.mb-0 Los bovinos en el rumen desdoblan la urea convirtiéndola en proteína. Para que el animal se adapte al consumo de este elemento se debe suministrar por niveles que van en la primera semana 25 %, en la segunda semana 50 %, en la tercera semana 75 % y en la cuarta semana se suministra un 100 %; si en este proceso de adaptación de la urea se deja de dar al animal por varios días, se debe empezar de nuevo el suministro.
       
       p La urea que se usa para la alimentación bovina se debe disolver en agua tibia y luego se adiciona al pasto picado. La urea siempre se debe usar con una fuente de energía, por eso se puede mezclar con la miel o con el forraje de corte, lo importante es distribuirla bien y que los animales reciban la cantidad adecuada sin que exista peligro de intoxicación. Si esto llegara a pasar se recomienda utilizar vinagre.
 
-      .row
+      .row.justify-content-center
         .col-lg-8
           p Un buen nivel de urea debe estar entre 60 y 100 g/animal/día, el nivel máximo de suministro de urea es 135 g/animal/día, este abastecimiento debe tener en cuenta el tamaño del novillo y los demás componentes de la dieta.
           ul.lista-ul--color
@@ -335,8 +338,8 @@
               i.fas.fa-check-circle.bgr_13 
               | Banano
           p El banano es un alimento barato, tiene un alto contenido de humedad y aumenta la energía en la dieta del bovino; este se puede suministrar al animal picado, pero en altas cantidades produce diarreas, por esto se recomienda usar 8 kg/animal/día.
-        .col-lg-4
-          figure
+        .col-md-8.col-lg-4.align-content-center
+          figure.d-flex
             img(src='@/assets/curso/temas/tema4/24.png', alt='Texto que describa la imagen')
       
     

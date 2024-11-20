@@ -122,22 +122,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Holstein',
+              texto: '<em>Holstein</em>',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Brahman',
+              texto: '<em>Brahman</em>',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Jersey',
+              texto: '<em>Jersey</em>',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Angus',
+              texto: '<em>Angus</em>',
               esCorrecta: true,
             },
           ],
@@ -153,22 +153,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Angus',
+              texto: '<em>Angus</em>',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Hereford',
+              texto: '<em>Hereford</em>',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Holstein',
+              texto: '<em>Holstein</em>',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Brahman',
+              texto: '<em>Brahman</em>',
               esCorrecta: false,
             },
           ],
@@ -246,22 +246,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Angus',
+              texto: '<em>Angus</em>',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Holstein',
+              texto: '<em>Holstein</em>',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Brahman',
+              texto: '<em>Brahman</em>',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Jersey',
+              texto: '<em>Jersey</em>',
               esCorrecta: false,
             },
           ],

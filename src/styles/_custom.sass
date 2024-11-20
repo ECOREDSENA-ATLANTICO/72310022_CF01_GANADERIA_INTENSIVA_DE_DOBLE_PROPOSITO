@@ -62,6 +62,9 @@
 .slyder-a__bullets__item--active
   background-color: #238AA4
   border-color: #238AA4
+.slyder-a__bullets__item
+  @media ( max-width: $bp-max-xs )
+    margin: 0 3px
 
 .bloque-texto-b.color-secundario:before
   background-color: #EFFAF4
@@ -81,6 +84,8 @@
   display: inline
   padding: 10px
   padding-left: 50px
+  @media ( max-width: $bp-max-lg )
+    display: flex
   &_1
     background: rgb(252,219,180)
     background: linear-gradient(180deg, rgba(252,219,180,1) 0%, rgba(193,221,199,1) 100%)
@@ -124,8 +129,10 @@
     background-color: #F2F2F2
   &_12
     background-image: url(../assets/curso/temas/tema2/30.svg) !important
-    background-repeat: no-repeat  
+    background-repeat: no-repeat 
+    background-size: cover
     border-radius: 20px
+    padding: 20px
   &_13
     color: $color-primario !important
   &_14
@@ -135,6 +142,9 @@
     border-radius: 10px
     display: inline
     padding: 10px
+    @media ( max-width: $bp-max-lg )
+      display: flex
+      
   &_16
     background-color: #F6F6F6
     border-left: 10px solid #DCC366
@@ -144,23 +154,36 @@
     color: #12263F !important
   &_18
     background-image: url(../assets/curso/temas/tema3/29.svg) !important
-    background-repeat: no-repeat  
+    background-repeat: no-repeat
+    background-size: cover
+    padding: 20px  
     border-radius: 20px
   &_19
     background-color: #FCDBB4
     border-radius: 0 10px 10px 0
-    padding: 20px 20px 20px 0
+    padding: 16px 20px 16px 0
   &_20
     background-color: #C1DDC7
-    padding: 23px
+    padding: 18px
     font-size: 24px
+    display: inline
   &_21
     color: #FCDBB4
+  &_22
+    background-color: #C1DDC7
+    padding: 23px
+    display: inline
+  &_23
+    background-color: #4D584F
+    border-radius: 20px
+    display: inline
+    padding: 10px
+    padding-left: 50px
  
   
 .bg_img
   position: relative
-  p, figure, slyder-f .tarjeta
+  p, figure, slyder-f, .tarjeta, .linea-tiempo-d
     position: relative
   &::before
     content: ''
@@ -186,6 +209,15 @@
       height: 100%
       background-image: url(../assets/curso/temas/tema1/8.svg) !important
       background-repeat: no-repeat
+      @media ( max-width: $bp-max-lg )
+        top: 0
+        width: 100%
+        border-radius: 20px
+      @media ( max-width: $bp-max-sm )
+        background-image: none !important
+        background-color: #FCDBB4
+        height: calc(100% + 10px)
+        
   &_2
     position: relative
     p, figure, .tarjeta
@@ -218,6 +250,8 @@
     width: 170px
   &_4
     width: 130px
+  &_5
+    flex-wrap: wrap
 
 ///////////// CUSTOM LINEA DE TIEMPO D
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected

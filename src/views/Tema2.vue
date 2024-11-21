@@ -245,19 +245,20 @@
           figure.mb-5.d-flex.justify-content-center
             img.pst_2(src='@/assets/curso/temas/tema2/13.png', alt='Imagen decorativa')
           h2 Bovinos <em>Normandos</em>
-          p Las características más relevantes de los bovinos <em>Normandos</em> son su resistencia a enfermedades, pueden recorrer varias extensiones en busca de comida, las hembras tienen gran fertilidad con una cría por año y dependiendo de la alimentación suministrada y el manejo del animal, en la primera inseminación tienen un 70 % de probabilidad de dejar las vacas preñadas y en la segunda inseminación tienen una efectividad de un 95 %.
+          p El ganado <em>Normando</em> es una raza bovina originaria de la región de Normandía, al norte de Francia. Es conocida por su doble propósito: producción de carne y producción de leche, aunque también se cría para la obtención de cuero y para trabajos de tracción en algunas zonas rurales.
       .col-md-6.col-lg-4.mb-3
         div.tarjeta.text-center.bgr_6.p-4.h-100
           figure.mb-5.d-flex.justify-content-center
             img.pst_2(src='@/assets/curso/temas/tema2/14.png', alt='Imagen decorativa')
           h2 Produce carne y leche
-          p La raza Normando es procedente del norte de Francia y es doble propósito porque produce carne y leche de alta calidad. Este ganado surgió del cruzamiento de bovinos que poblaron Normandía del siglo IX al X con animales introducidos por los vikingos. A Colombia llegó en 1877 y se adaptó muy bien a las condiciones agroecológicas existentes en el país; en la actualidad esta raza se produce en el Eje Cafetero, Valle del Cauca, Santander, Huila y Tolima.
+          p La vaca <em>Normando</em> es valorada por su leche de alta calidad, rica en grasa y proteínas, ideal para la producción de quesos como el <em>Camembert</em>, con un rendimiento de 6,000 a 8,000 litros anuales. Además, es apreciada por su carne, especialmente por su sabor y jugosidad, debido al marmoleo que mejora la textura. La carne de ternera es especialmente tierna y sabrosa, lo que hace a esta raza ideal tanto para la producción láctea como cárnica.
       .col-md-6.col-lg-4.mb-3
         div.tarjeta.text-center.bgr_10.p-4.h-100
           figure.mb-5.d-flex.justify-content-center
             img.pst_2(src='@/assets/curso/temas/tema2/15.png', alt='Imagen decorativa')
           h2 Resistencia a enfermedades
           p Las características más relevantes de los bovinos <em>Normandos</em> son su resistencia a enfermedades, pueden recorrer varias extensiones en busca de comida, las hembras tienen gran fertilidad con una cría por año y dependiendo de la alimentación suministrada y el manejo del animal, en la primera inseminación tienen un 70% de probabilidad de dejar las vacas preñadas y en la segunda inseminación tienen una efectividad de un 95%.
+
     
     .bg_img
       h3.bgr_8 Razas criollas colombianas

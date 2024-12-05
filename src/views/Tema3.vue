@@ -23,7 +23,7 @@
             h5 Figura 2. 
             span <em>Requerimientos nutricionales de los bovinos</em>
           figure
-            img.mb-3(src='@/assets/curso/temas/tema3/2.svg', alt='Imagen decorativa') 
+            img.mb-3(src='@/assets/curso/temas/tema3/2.svg', alt='A continuación se explican los requerimientos nutricionales de los bovinos.') 
             
     p.mb-5 Para que un animal tenga un estado nutricional equilibrado, se debe tener en cuenta:
 

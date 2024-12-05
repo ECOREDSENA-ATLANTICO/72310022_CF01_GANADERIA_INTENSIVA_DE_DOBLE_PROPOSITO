@@ -7,7 +7,7 @@
     .row.justify-content-center.bgrs.p-4
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="En la síntesis del componente se detalla la ganadería del bovino, las razas de ganado bovino, los requerimientos nutricionales y la conservación de forrajes.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

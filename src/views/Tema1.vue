@@ -23,7 +23,7 @@
             h5 Figura 1. 
             span <em>Razas criollas y sintéticas</em>
           figure
-            img.mb-3(src='@/assets/curso/temas/tema1/2.svg', alt='Imagen decorativa') 
+            img.mb-3(src='@/assets/curso/temas/tema1/2.svg', alt='En las razas criollas y sintéticas se aprecia las generalidades de la ganadería y las razas. Así mismo se obtiene dos productos de la producción del ganado: leche y carne.') 
             figcaption Nota: Sena.
           
       div.mb-5(data-aos="fade-right")

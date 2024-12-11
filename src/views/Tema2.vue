@@ -15,6 +15,7 @@
         p.mb-0 Los sistemas productivos doble propósito utilizan razas de bovinos adaptadas al trópico las cuales producen leche y carne, esto se logra mediante el cruzamiento entre ambas razas con el fin de incrementar la productividad en el hato. 
     
     p Al cruzar dos razas diferentes las crías son más vigorosas que sus antecesoras y tienen características como: mayor fertilidad, mejor volumen corporal y alta capacidad de producir carne y leche.
+    p Las razas de ganado bovino se pueden clasificar en:
 
     .row.mb-5.justify-content-center
       .col-md-6.col-lg-4.mb-3
@@ -173,7 +174,7 @@
               caption Nota. SENA
               thead
                 tr.bgr_6
-                  th Caracteristica
+                  th Característica
                   th Descripción
                  
                 
@@ -257,7 +258,7 @@
           figure.mb-5.d-flex.justify-content-center
             img.pst_2(src='@/assets/curso/temas/tema2/15.png', alt='Imagen decorativa')
           h2 Resistencia a enfermedades
-          p Las características más relevantes de los bovinos <em>Normandos</em> son su resistencia a enfermedades, pueden recorrer varias extensiones en busca de comida, las hembras tienen gran fertilidad con una cría por año y dependiendo de la alimentación suministrada y el manejo del animal, en la primera inseminación tienen un 70% de probabilidad de dejar las vacas preñadas y en la segunda inseminación tienen una efectividad de un 95%.
+          p Las características más relevantes de los bovinos <em>Normandos</em> son su resistencia a enfermedades, pueden recorrer varias extensiones en busca de comida, las hembras tienen gran fertilidad con una cría por año y dependiendo de la alimentación suministrada y el manejo del animal, en la primera inseminación tienen un 70 % de probabilidad de dejar las vacas preñadas y en la segunda inseminación tienen una efectividad de un 95 %.
 
     
     .bg_img
@@ -411,20 +412,20 @@
             p Esta raza surgió de la combinación de los primeros bovinos ibéricos traídos por los españoles, los cuales se cruzaron con las razas existentes.
             p Las características zootécnicas de esta raza están bien marcadas por el color de la piel, la cual es negra, carmelita u oscura, de pelaje corto y fino que puede ser rojizo (cereza) o amarillo claro (bayo), tiene una cabeza mediana, los cuernos son moderados, las orejas pueden ser pequeñas o medianas.
             p Los machos Hartón son vigorosos y activos sexualmente; además esta raza generalmente es buena productora de leche y de carne.
+      .py-3.py-md-4(titulo="Sanmartinero")
+        .row.p-4.justify-content-center
+          .col-lg-8.col-xl-5.mb-3.align-content-center
+            figure
+              img(src='@/assets/curso/temas/tema2/23.png', alt='Texto que describa la imagen')
+          .col-xl-7
+            h4 <em>Sanmartinero</em>
+            p El origen de esta raza se le atribuye al ganado ibérico traído por los españoles en la conquista, dicha especie se formó en el piedemonte llanero gracias al esfuerzo de los Jesuitas.
+            p El Sanmartinero cuenta con la capacidad para vivir en grandes extensiones con forrajes pobres, resisten altas temperaturas por lo que cuentan con alta rusticidad y resistencia, tienen habilidad para utilizar forrajes fibrosos, soportan a ciertos parásitos y son buenos productores de carne, leche y pieles.
+            .cajon.color-acento-contenido.p-4
+              p.mb-0 Esta raza antes se utilizaba como doble propósito en la altillanura, pero en la actualidad solo existen 3.166 cabezas de ganado distribuidos en centros de investigación ubicados en Villavicencio, Puerto Gaitán y en bancos de germoplasmas del ICA y CORPOICA.
 
-    .bg_img
-      h3.bgr_8 <em>Sanmartinero</em>
-      .row.mb-5.mt-5.justify-content-center
-        .col-lg-12.col-xl-7.mb-3 
-          p El origen de esta raza se le atribuye al ganado ibérico traído por los españoles en la conquista, dicha especie se formó en el piedemonte llanero gracias al esfuerzo de los Jesuitas.
-          p El Sanmartinero cuenta con la capacidad para vivir en grandes extensiones con forrajes pobres, resisten altas temperaturas por lo que cuentan con alta rusticidad y resistencia, tienen habilidad para utilizar forrajes fibrosos, soportan a ciertos parásitos y son buenos productores de carne, leche y pieles.
-          .cajon.color-acento-contenido.p-4
-            p.mb-0 Esta raza antes se utilizaba como doble propósito en la altillanura, pero en la actualidad solo existen 3.166 cabezas de ganado distribuidos en centros de investigación ubicados en Villavicencio, Puerto Gaitán y en bancos de germoplasmas del ICA y CORPOICA.
-        .col-lg-8.col-xl-5
-          figure
-            img(src='@/assets/curso/temas/tema2/23.png', alt='Texto que describa la imagen')
-      
-      p.text-center.text-bold.mb-5 Las características morfológicas y fisiológicas de esta especie son:
+    
+    p.text-center.text-bold.mb-5 Las características morfológicas y fisiológicas de esta especie son:
     
       .row.mb-5
         .col-sm-4.col-xl-2.mb-4.mb-xl-0

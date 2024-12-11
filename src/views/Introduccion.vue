@@ -14,10 +14,10 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/wJMkucbQk-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Sena (2024).
+      
     
     .cajon.color-acento-contenido.p-4
-      p.mb-0 En esta actividad de aprendizaje se tratan aspectos generales de la ganadería bovina y su importancia para la economía nacional, también se describen las razas de ganado doble propósito y los aspectos relacionados con las especies colombianas criollas y sintéticas.
+      p.mb-0 En este componente formativo se tratan aspectos generales de la ganadería bovina y su importancia para la economía nacional, también se describen las razas de ganado doble propósito y los aspectos relacionados con las especies colombianas criollas y sintéticas.
 
 </template>
 

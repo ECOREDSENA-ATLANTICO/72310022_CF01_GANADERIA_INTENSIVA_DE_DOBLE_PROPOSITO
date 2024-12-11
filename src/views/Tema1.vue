@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/temas/tema1/1.png', alt='Imagen decorativa') 
       .col-xl-7.align-content-center
-        p La ganadería de los bovinos consiste en la domesticación de los animales, es una actividad que realizan los seres humanos hace más diez mil años y tiene sus inicios en Asia, Europa, América y Oceanía, esta actividad económica se introdujo en la época de la colonización europea.
+        p La ganadería de los bovinos consiste en la domesticación de los animales, es una actividad que realizan los seres humanos hace más de diez mil años y tiene sus inicios en Asia, Europa, América y Oceanía, esta actividad económica se introdujo en la época de la colonización europea.
         .cajon.color-acento-contenido.p-4
           p.mb-0 La ganadería como tal, se desarrolló bajo el esquema del nomadismo, el cual consistía en desplazar el ganado de un territorio a otro y de esta manera ser aprovechado como fuente de alimento y para transportar productos agrícolas.
     
@@ -54,7 +54,7 @@
           figure
             img(src='@/assets/curso/temas/tema1/7.png', alt='Imagen decorativa')
         .col-10.align-content-center
-          p.mb-0 El sector agropecuario en Colombia es muy importante en la economía nacional, puesto que aportó en el año 2011 el 9% del Producto Interno Bruto (PIB).
+          p.mb-0 El sector agropecuario en Colombia es muy importante en la economía nacional, puesto que aportó en el año 2011 el 9 % del Producto Interno Bruto (PIB).
     
     div.mb-5(data-aos="fade-right")
       h3.bgr.text-white.position-relative Conceptualización sobre ganadería doble propósito

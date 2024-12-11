@@ -23,7 +23,7 @@
             h5 Figura 2. 
             span <em>Requerimientos nutricionales de los bovinos</em>
           figure
-            img.mb-3(src='@/assets/curso/temas/tema3/2.svg', alt='A continuación se explican los requerimientos nutricionales de los bovinos.') 
+            img.mb-3(src='@/assets/curso/temas/tema3/2.svg', alt='Los requerimientos nutricionales como la ingesta, materia seca, agua, energía, proteína, fibra, vitaminas y minerales. La alimentación bovina en cuanto al manejo de praderas, sea continuo, alterno y rotacional. En cuanto a los forrajes, proteína, energía, agua, vitaminas y minerales. La suplementación es fibroso, proteicos y energéticos; y la conservación de forrajes en ensilaje.') 
             
     p.mb-5 Para que un animal tenga un estado nutricional equilibrado, se debe tener en cuenta:
 
@@ -219,7 +219,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/14.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La fibra en bovinos aporta celulosa, hemicelulosa y lignina; este último compuesto ayuda al buen funcionamiento ruminal, por tal razón, los bovinos deben consumir una cantidad mínima por día para que haya estimulación de la saliva y la rumia. Los niveles de fibra que se le deben suministrar a las vacas lecheras están entre 17 a 22 % de materia seca; si este es superior de un 22 % la capacidad de asimilación por parte del animal se ve perjudicada y si es inferior a un 17 %, se reduce el nivel de producción de leche y de grasa.
+        p.mb-0 La fibra en bovinos aporta celulosa, hemicelulosa y lignina; este último compuesto ayuda al buen funcionamiento ruminal, por tal razón, los bovinos deben consumir una cantidad mínima por día para que haya estimulación de la saliva y la rumia. Los niveles de fibra que se le deben suministrar a las vacas lecheras están entre 17 % a 22 % de materia seca; si este es superior de un 22 % la capacidad de asimilación por parte del animal se ve perjudicada y si es inferior a un 17 %, se reduce el nivel de producción de leche y de grasa.
 
     .bg_img
       h3.bgr_8 Vitaminas
@@ -674,7 +674,7 @@
       .col-lg-12.col-xl-7.mb-3
         p Es importante en el sistema ganadero bovino al momento de iniciar un programa de confinamiento, disponer de buena cantidad y calidad de forrajes. Para tal fin, se usan especies de gramíneas como pasto elefante, <em>King grass</em>, Guatemala o <em>Maralfalfa</em>, también se puede usar la caña azucarera, el pasto de piso y las leguminosas tales como: <em>Leucaena, Kudzú, Crotalarias, Frijolillos, Morera, Nacedero, Estilosantes</em>, entre otros.
         .cajon.color-acento-contenido.p-4.mb-5
-          p.mb-0 El consumo de pasto de corte por parte de los bovinos depende del sistema de pastoreo y de los alimentos que se les proporcionen, por ejemplo, un novillo necesita de 7 a 10 % de su peso en pasto verde, mientras que un toro de 350 kg requiere de 22 a 35 kg de forraje al día.
+          p.mb-0 El consumo de pasto de corte por parte de los bovinos depende del sistema de pastoreo y de los alimentos que se les proporcionen, por ejemplo, un novillo necesita de 7 % a 10 % de su peso en pasto verde, mientras que un toro de 350 kg requiere de 22 a 35 kg de forraje al día.
       .col-lg-8.col-xl-5
         figure
           img(src='@/assets/curso/temas/tema3/27.png', alt='Texto que describa la imagen')
@@ -808,7 +808,7 @@
           ul.lista-ul--color
             li.d-flex 
               i.fas.fa-check-circle.bgr_14
-              p.mb-0 #[strong Nombre vulgar: ] paja o India.
+              p.mb-0 #[strong Nombre vulgar: ] Paja o India.
             li.d-flex 
               i.fas.fa-check-circle.bgr_14
               p.mb-0 #[strong Suelos y climas a los que se adapta: ] crece en suelos de alta fertilidad entre los 0 y 1800 m.s.n.m. 
@@ -846,7 +846,7 @@
           ul.lista-ul--color
             li.d-flex 
               i.fas.fa-check-circle.bgr_14
-              p.mb-0 #[strong Nombre vulgar: ] Yararagua  peludo Chopin o pasto melaza.
+              p.mb-0 #[strong Nombre vulgar: ] Yararagua  peludo, Chopin o pasto melaza.
             li.d-flex 
               i.fas.fa-check-circle.bgr_14
               p.mb-0 #[strong Suelos y climas a los que se adapta: ] crece en suelos fértiles y poco fértiles, entre los 200 y los 230 m.s.n.m.	
@@ -921,7 +921,7 @@
               h3 Suplementos fibrosos
         p En este grupo se encuentran los forrajes, como pastos, leguminosas y árboles; estas especies se utilizan enteras o en cortes. En el caso de las leguminosas, árboles y arbustos, es necesario cortarlos para reducir su tamaño y, de esta manera, facilitar su suministro al animal.
         .cajon.color-acento-contenido.p-4.mb-5
-          p.mb-0 Este tipo de alimentos se utilizan en épocas de escases de forrajes por disminución de las lluvias, y es una suplementación que se proporciona para sustituir la deficiencia de fibra.
+          p.mb-0 Este tipo de alimentos se utilizan en épocas de escasez de forrajes por disminución de las lluvias, y es una suplementación que se proporciona para sustituir la deficiencia de fibra.
       .col-md-8.col-lg-4.align-content-center
         figure.d-flex
           img(src='@/assets/curso/temas/tema3/42.png', alt='Texto que describa la imagen')
@@ -1069,7 +1069,7 @@
               | Permite que se disminuya la pérdida de peso del animal en épocas secas y de baja disponibilidad de forrajes.
             li.d-flex
               i.fas.fa-check-circle.bgr_13
-              | Mejora la relación proteína- energía en el animal.
+              | Mejora la relación proteína - energía en el animal.
             li.d-flex
               i.fas.fa-check-circle.bgr_13
               | Aumenta la producción láctea en hembras productoras de leche y también mejora la ganancia de peso vivo del animal en unos 420 g/día.

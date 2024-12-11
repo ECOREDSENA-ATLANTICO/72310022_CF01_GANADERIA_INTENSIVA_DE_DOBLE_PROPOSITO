@@ -18,7 +18,7 @@ export default {
       tema: 'Nombre del componente formativo',
       titulo: 'Cuestionario',
       introduccion:
-        'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija entre verdadero y falso según corresponda.',
+        'Lea cada enunciado referente a los temas desarrollados en el componente formativo y elija la correcta según corresponda.',
       barajarPreguntas: false,
       preguntas: [
         {

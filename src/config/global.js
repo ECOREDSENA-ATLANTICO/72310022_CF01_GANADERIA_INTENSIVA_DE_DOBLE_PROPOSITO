@@ -251,20 +251,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Diana Cristina Muñoz Urrea',
+          nombre: 'Ángela Viviana Páez Perilla',
           cargo: 'Experta temática',
           centro: 'Centro Agroindustrial Regional Quindío.',
         },
         {
-          nombre: 'Yuri Alexandra Baez',
-          cargo: 'Asesora pedagógica',
+          nombre: 'Paola Andrea Bobadilla Gutiérrez',
+          cargo: 'Guionista - Línea de producción	',
           centro: 'Centro Agroindustrial Regional Quindío.',
-        },
-        {
-          nombre: 'Fabian Cuartas Donado',
-          cargo: 'Evaluador instruccional',
-          centro:
-            'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
           nombre: 'Gilberto Herrera Delgans',
@@ -278,14 +272,14 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Hernando Junior Strusberg Perez',
+          nombre: 'Eulises Orduz Amezquita',
           cargo: 'Diseñador <em>web</em>',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
         {
-          nombre: 'Carlo Andrés Díaz Pinto',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          nombre: 'Liborio De Jesús Castañeda Valencia ',
+          cargo: 'Desarrollador <em>Fullstack junior</em>',
           centro:
             'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico',
         },
